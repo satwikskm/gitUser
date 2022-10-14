@@ -1,0 +1,17 @@
+<div class="main" ng-controller="userDefine">
+    <h1>This is view 1</h1>
+<div class="container">
+   <div ng-repeat="item in currentUserList | filter:name ">
+   
+    <ul>
+        <li> {{ item.id}}</li>
+        <li> {{ item.name}}</li>
+       
+
+    </ul>
+   </div>
+
+
+</div>
+   <div class="end-note"></div>
+</div>

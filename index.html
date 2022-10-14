@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="user">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+                          <!-- Angular CDN -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.js">
+    </script>
+
+                        <!-- Controller Script -->
+    <script src="./route.js"></script>
+    <script src="./controller/app.controller.js"></script>
+    <script src="./services/app.factory.js"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+                <!-- Angular Module Testing -->
+    <input type="text" ng-model="name" > {{ name }}
+
+
+    <!-- Defineing a basic controller -->
+<!-- 
+    <div class="main" ng-controller="userDefine">
+        <h1>This is view 1</h1>
+       <div ng-repeat="item in currentUserList">
+       {{ $scope.currentUserList }}
+        <ul>
+            <li> {{ item.id}}</li>
+            <li> {{ item.name}}</li>
+           
+    
+        </ul>
+       
+       
+       </div>
+    </div> -->
+
+    <div ng-view></div>
+
+
+
+
+</body>
+</html>

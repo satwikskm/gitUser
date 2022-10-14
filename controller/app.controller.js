@@ -31,7 +31,6 @@ angular.module('user').controller('userDefine',function($scope,api){
 
 
     // Lazy loading implementation on Scroll
-    let call = 0
     const entTrack = document.querySelector('.container')
     console.log(entTrack)
     let count = 1

@@ -1,7 +1,4 @@
 const app = angular.module('user',["ngRoute"])
-
-// let page = 0
-// let limit = 10
 let count = 0
 
 // defineing the routes
@@ -12,6 +9,22 @@ app.config(function ($routeProvider) {
         controller: 'userDefine'
     })
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
